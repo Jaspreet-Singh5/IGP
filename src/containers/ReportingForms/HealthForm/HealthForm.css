@@ -1,0 +1,19 @@
+.HealthFormContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.HealthForm {
+    width: 50%;
+}
+
+.Header-Login-HealthForm {
+    background-image: none;
+    background-color: #6b2986;
+}
+
+.Header-Login-HealthForm .Form-header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+}

@@ -1,0 +1,153 @@
+.SignUpForm {
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+    border: .4rem solid #421255;
+    box-shadow: .9rem .3rem .6rem #53146B;
+    border-radius: 5rem;
+}
+
+.Header-SignUp {
+    height: 20rem;
+    border-top-right-radius: 4.5rem;
+    border-top-left-radius: 4.5em;
+    background-image: linear-gradient(to bottom, #8E35B1, #471B59);
+    display: flex;
+    flex-direction: column;
+    clip-path: polygon(0 100%, 16% 76%, 32% 100%, 52% 75%, 72% 100%, 85% 75%, 100% 100%, 100% 0, 0% 0%);
+}
+
+.Form-header {
+    text-align: center;
+    font-family: Domine;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #ffffff;
+    padding-top: 3rem;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%; */
+
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    color: #61187E;
+    width: 45rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.GoogleSignUp {
+    background-color: #53146B;
+    height: 8.5rem;
+    width: 100%;
+    border: none;
+    font-family: Domine;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.GoogleSignUpIcon {
+    background-image: url('/img/28@2x.png');
+    background-size: cover;
+    height: 6rem;
+    width: 6rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.SignUpOption {
+    font-family: Domine;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #61187E;
+}
+
+.Form-section {
+    border: 1px solid #421255;
+    padding: 2rem;
+    width: 100%;
+}
+
+.Form-label {
+    font-family: Domine;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: block;
+}
+
+.Form-input {
+    border-radius: 1rem;
+    border: .2rem solid #8E35B1;
+    height: 5rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.Form-text {
+    font-family: Roboto!important;
+    font-size: 1.6rem;
+    width: 90%;
+    padding: 1rem;
+    margin-left: 1rem;
+    height: 80%;
+    border: none;
+    background-color: transparent;
+}
+
+.Form-element {
+    margin-top: 2rem;
+}
+
+
+.FormInputIcon {
+    height: 3rem;
+    width: 4rem;
+    margin-right: 1rem;
+    display: inline-block; 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.FormInputIcon-1 {
+    background-image: url('/img/25@2x.png');
+}
+
+.FormInputIcon-2 {
+    background-image: url('/img/26@2x.png');
+}
+
+
+.FormInputIcon-3 {
+    background-image: url('/img/27@2x.png');
+    margin-top: 1rem;
+}
+
+.SignUpButton {
+
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+#GoogleSignUpMain {
+    opacity: 1;
+}
